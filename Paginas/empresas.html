@@ -33,6 +33,15 @@
     />
   </head>
   <body>
+    <section class="text-black">
+      <p class="text-center" style="background-color: #c6aa76">
+        <br />
+        HORNEAMOS TODOS LOS DIAS. ENVIO A TODA BOGOTA
+        <br />
+        <br />
+      </p>
+    </section>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Menú</a>
@@ -89,95 +98,96 @@
     </nav>
 
     <!-- Carrusel empresarial -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
+    <section class="bg-danger-subtle">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../imagenes/mesapostres.jpg"
+              alt="Mesa de postres matrimonios"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption color-texto-slides">
+              <h2>MATRIMONIOS</h2>
+              <h3>Que tu matrimonio sea inolvidable y delicioso</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../imagenes/mesaspostreeventos.jpg"
+              alt="Mesa de postres matrimonios"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption color-texto-slides">
+              <h2>EVENTOS</h2>
+              <h3>Una forma diferente de endulzar tus eventos</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../imagenes/mesaspostrevariados.jpg"
+              alt="Mesa de postres variados"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption color-texto-slides">
+              <h2>TODAS TUS REUNIONES</h2>
+              <h3>Distínguete</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- control e iconos izq-der -->
         <button
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#demo"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
         <button
+          class="carousel-control-next"
           type="button"
           data-bs-target="#demo"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="2"
-        ></button>
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="../imagenes/mesapostres.jpg"
-            alt="Mesa de postres matrimonios"
-            class="d-block"
-            style="width: 100%"
-          />
-          <div class="carousel-caption color-texto-slides">
-            <h2>MATRIMONIOS</h2>
-            <h3>Que tu matrimonio sea inolvidable y delicioso</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../imagenes/mesaspostreeventos.jpg"
-            alt="Mesa de postres matrimonios"
-            class="d-block"
-            style="width: 100%"
-          />
-          <div class="carousel-caption color-texto-slides">
-            <h2>EVENTOS</h2>
-            <h3>Una forma diferente de endulzar tus eventos</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../imagenes/mesaspostrevariados.jpg"
-            alt="Mesa de postres variados"
-            class="d-block"
-            style="width: 100%"
-          />
-          <div class="carousel-caption color-texto-slides">
-            <h2>TODAS TUS REUNIONES</h2>
-            <h3>Distínguete</h3>
-          </div>
-        </div>
+      <div class="container-fluid mt-3">
+        <h3>Pedidos empresariales y eventos</h3>
+        <p>
+          Buscanos en las redes o en nuestro link de
+          <a href="../Paginas/Contactenos.html">Contactenos</a> y atenderemos tu
+          evento empresarial o matrimonio.
+        </p>
       </div>
-
-      <!-- control e iconos izq-der -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-
-    <div class="container-fluid mt-3">
-      <h3>Pedidos empresariales y eventos</h3>
-      <p>
-        Buscanos en las redes o en nuestro link de
-        <a href="../Paginas/Contactenos.html">Contactenos</a> y atenderemos tu
-        evento empresarial o matrimonio.
-      </p>
-    </div>
-
+    </section>
     <footer id="pie">
       <p class="redes_sociales">Búscanos en redes sociales</p>
       <!-- Íconos de Instagram. Twitter, etc... -->
